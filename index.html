@@ -1,16 +1,138 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <title>
+<html lang="en">
+<title>SuperbDhruv's Official website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/lib/w3schools30.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
 
-        </title>
-    </head>
-    <body>
-        <div class="navBar">
-            <strong>
-                <h1>Hello!</h1>
-            </strong>
-        </div>
-    </body>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white"><img</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 4</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">HELLO!</h1>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>About me</h1>
+      <h5 class="w3-padding-32">Hi. I am a YouTuber, coder and a gamer.</h5>
+
+      <p class="w3-text-grey">I play minecraft and make gameplay videos of bedwars and survival. I also like to make texture packs for minecraft 1.8.9 for bedwars.</p>
+    </div>
+
+    <div class="w3-third w3-center">
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+    </div>
+
+    <div class="w3-twothird">
+      <h1></h1>
+      <h5 class="w3-padding-32">Things i've done till now.</h5>
+
+      <p class="w3-text-grey">THIS IS A LIST</p>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Subscribe to my channel now if you have not yet</h1><br>
+
+</div>
+
+<div id="subbtn" class="w3-hover-opacity" style="text-align: center;">
+  <a href=https://www.youtube.com/channel/UCB22_muEXu682SeBCyFx1NA target="_blank"><img src="https://img.search.brave.com/BUSeFV4CnwKD11z7wiFo0C1QUePo4T5R2eWgOc7v0JI/rs:fit:1200:755:1/g:ce/aHR0cDovL3BuZ2lt/Zy5jb20vdXBsb2Fk/cy9zdWJzY3JpYmUv/c3Vic2NyaWJlX1BO/RzQ2LnBuZw" height="228" width="600"></a>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-youtube w3-hover-opacity"></i>
+    <i class="fa fa-github w3-hover-opacity"></i>
+    <span class="iconify" data-icon="simple-icons:discord"></span>
+    <img class="fa fa-discord w3-hover-opacity" src="discord-icon.png">
+    </div> 
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+Awsome people who have subscribed till now :
+<div id="subCount">ERROR LOADING. PLEASE RELOAD THE PAGE.</div>
+
+<script>
+
+// Get Subscribers
+// Thanx to Raddy
+// vid i watched = https://www.youtube.com/watch?v=Cemk32wKN_k
+const youtubeKey = 'AIzaSyDBd-WOMDgy87ZBQkepbUz3m-uawqRPnBo';
+const youtubeUser = 'UCB22_muEXu682SeBCyFx1NA';
+const subCount = document.getElementById('subCount');
+
+let getSubscribers = () => {
+
+    fetch(`https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${youtubeUser}&key=${youtubeKey}`)
+    .then(response => {
+        return response.json()
+    })
+    .then(data => {
+        console.log(data);
+        subCount.innerHTML = data["items"][0].statistics.subscriberCount;
+    })
+
+}
+
+getSubscribers();
+
+</script>
+
+  
+</style>
+</body>
 </html>
